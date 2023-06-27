@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   $(window).on('scroll', function () {
     var scroll = $(window).scrollTop();
-    console.log(scroll);
+    // console.log(scroll);
     if (scroll >= 50) {
       $(".sticky").addClass("stickyadd");
     } else {
@@ -76,16 +76,16 @@ $(document).ready(function () {
   });
 
 
-  var filterizd = $('.filter-container').filterizr({
-    animationDuration: .5,
+  // var filterizd = $('.filter-container').filterizr({
+  //   animationDuration: .5,
 
-  });
+  // });
 
   // $('.img-loaded').imagesLoaded()
-  //   .done( function( instance ) {
+  //   .done(function (instance) {
   //     var filterizd = $('.filter-container').filterizr({
-  //        animationDuration: .5,
-  //
+  //       animationDuration: .5,
+
   //     });
   //   });
 
